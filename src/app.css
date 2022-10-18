@@ -1,24 +1,24 @@
-.app{
+.app {
     height: 100vh;
     display: flex;
     background-color: #020230;
     color: white;
 }
 
-.main{
+.main {
     width: 75%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230), 
-    url("./assets/bg1.jpg") center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+        url("./assets/bg1.jpg") center;
     display: flex;
     flex-direction: column;
 }
 
-.top{
+.top {
     height: 80%;
     position: relative;
 }
 
-.timer{
+.timer {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -31,14 +31,14 @@
     position: absolute;
     left: 460px;
     bottom: 300px;
-    
+
 }
 
-.bottom{
+.bottom {
     height: 50%;
 }
 
-.trivia{
+.trivia {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
     justify-content: space-around;
 }
 
-.question{
+.question {
     width: 80%;
     background: linear-gradient(#100241, black);
     border: 2px solid white;
@@ -56,14 +56,14 @@
     font-size: 20px;
 }
 
-.answers{
+.answers {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.answer{
+.answer {
     width: 40%;
     padding: 10px;
     text-align: center;
@@ -81,83 +81,90 @@
     background: mediumblue;
 }
 
-.answer.correct{
+.answer.correct {
     animation: correct 2s ease forwards;
 }
 
-@keyframes correct{
+@keyframes correct {
+
     0%,
-    22%, 
+    22%,
     42% {
         background: mediumblue;
     }
-    20%, 
+
+    20%,
     40%,
     60% {
         background: linear-gradient(#0e0124, #22074d);
     }
+
     62%,
-    100%{
+    100% {
         background: green;
     }
 }
 
-.answer.wrong{
+.answer.wrong {
     animation: wrong 2s ease forwards;
 }
 
-@keyframes wrong{
+@keyframes wrong {
+
     0%,
-    22%, 
+    22%,
     42% {
         background: mediumblue;
     }
-    20%, 
+
+    20%,
     40%,
     60% {
         background: linear-gradient(#0e0124, #22074d);
     }
+
     62%,
-    100%{
+    100% {
         background: crimson;
     }
 }
-.pyramid{
+
+.pyramid {
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.moneyList{
+.moneyList {
     list-style: none;
     width: 100%;
     padding: 20px;
 }
 
-.moneyListItem{
+.moneyListItem {
     display: flex;
     align-items: center;
     padding: 5px;
     border-radius: 5px;
 }
 
-.moneyListItem.active{
+.moneyListItem.active {
     background-color: teal;
 }
 
-.moneyListItemNumber{
+.moneyListItemNumber {
     font-size: 18px;
     font-weight: 100;
     width: 30%;
 }
 
-.moneyListItemAmount{
+.moneyListItemAmount {
     font-size: 20px;
     font-weight: 300;
 }
 
-.endText{
+.endText {
     position: relative;
     top: 150px;
     bottom: 0;
@@ -166,7 +173,7 @@
     margin: auto;
 }
 
-.start{
+.start {
     width: 250px;
     height: 100px;
     display: flex;
@@ -179,7 +186,7 @@
     margin: auto;
 }
 
-.startInput{
+.startInput {
     width: 100%;
     height: 30px;
     border: none;
@@ -188,11 +195,11 @@
     font-size: 18px;
 }
 
-.startInput:focus{
+.startInput:focus {
     outline: none;
 }
 
-.startButton{
+.startButton {
     width: 100%;
     height: 30px;
     border: none;
@@ -200,4 +207,27 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+    .app {
+        padding: 0;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .main{
+        padding: 0;
+        flex-direction: column;
+    }
+    .moneyList{
+        padding: 0;
+        flex-direction: column;
+    }
+    .moneyListItem {
+        padding: 0;
+        flex-direction: column;
+    }
+    .question{
+        width: 80%;
+    }
 }

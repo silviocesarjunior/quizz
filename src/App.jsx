@@ -13,154 +13,154 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Qual é o canal mais educativo para as crianças assistirem?",
+      question: "Inglês -Como é - 'nos velhos tempos' ?",
       answers: [
         {
-          text: "X",
+          text: "in place",
           correct: false,
         },
         {
-          text: "Cultura",
+          text: "In the old days",
           correct: true,
         },
         {
-          text: "Y",
+          text: "every single day",
           correct: false,
         },
         {
-          text: "Z",
+          text: "Go for it",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "Agumon é o avatar de qual anime?",
+      question: "Inglês -O que é headhunter?",
       answers: [
         {
-          text: "Digimon",
+          text: "Caça-talentos",
           correct: true,
         },
         {
-          text: "Naruto",
+          text: "entrar em contato",
           correct: false,
         },
         {
-          text: "Yu-gi-oh",
+          text: "previsão",
           correct: false,
         },
         {
-          text: "One Piece",
+          text: "estágio",
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: "(animes) Quem tem a raposa de nove caldas selado em seu corpo ?",
+      question: "Inglês -Como se fala 'Prazo final'?",
       answers: [
         {
-          text: "Sasuke",
+          text: "Budget",
           correct: false,
         },
         {
-          text: "Sakura",
+          text: "Insight",
           correct: false,
         },
         {
-          text: "Orochimaru",
+          text: "Outsourcing",
           correct: false,
         },
         {
-          text: "Naruto Uzumaki",
+          text: "Deadline",
           correct: true,
         },
       ],
     },
     {
       id: 4,
-      question: "De quem é a famosa frase “Penso, logo existo” ?",
+      question: "Inglês -O que é Workaholic ?",
       answers: [
         {
-          text: "Descartes",
+          text: "Viciado em trabalho",
           correct: true,
         },
         {
-          text: "Galileu Galilei",
+          text: "Target",
           correct: false,
         },
         {
-          text: "Platão",
+          text: "Multitask",
           correct: false,
         },
         {
-          text: "Sócrates",
+          text: "Gap",
           correct: false,
         },
       ],
     },
     {
       id: 5,
-      question: "Quanto é 3 * 2 + 4?",
+      question: "Inglês -Como se fala 'dados de uma demanda' ?",
       answers: [
         {
-          text: "8",
+          text: "Quarter",
           correct: false,
         },
         {
-          text: "10",
+          text: "Briefing",
           correct: true,
         },
         {
-          text: "9",
+          text: "Break",
           correct: false,
         },
         {
-          text: "6",
+          text: "forecast",
           correct: false,
         },
       ],
     },
     {
       id: 6,
-      question: "Quanto tempo a luz do Sol demora para chegar à Terra?",
+      question: "Inglês -What is delay?",
       answers: [
         {
-          text: "12 minutos",
-          correct: false,
-        },
-        {
-          text: "8 horas",
-          correct: false,
-        },
-        {
-          text: "12 segundos",
-          correct: false,
-        },
-        {
-          text: "8 minutos",
+          text: "atraso",
           correct: true,
+        },
+        {
+          text: "meeting",
+          correct: false,
+        },
+        {
+          text: "mindset",
+          correct: false,
+        },
+        {
+          text: "backlog",
+          correct: false,
         },
       ],
     },
     {
       id: 7,
-      question: "Onde se localiza Machu Picchu?",
+      question: "Inglês -Como é 'formação de equipe ?",
       answers: [
         {
-          text: "México",
+          text: "Manager",
           correct: false,
         },
         {
-          text: "Uruguai",
+          text: "Team",
           correct: false,
         },
         {
-          text: "Peru",
+          text: "Team building",
           correct: true,
         },
         {
-          text: "Colômbia",
+          text: "Branding",
           correct: false,
         },
       ],
